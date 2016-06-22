@@ -7,6 +7,10 @@ class Calibration {
 public:
     Calibration();
     ~Calibration();
-    void loadData (int* array); //? or overlad >> operator so data is stored in the projectors data array.
+    void LoadData (); //? or overlad >> operator so data is stored in the projectors data array.
+	void DumpData(int** data);
+
+private:
+	int m_data[];
 };
 #endif

@@ -15,7 +15,7 @@
     void SetPosition();
     void Display();
     // have this method to set all info for a projector and passing a configuration object
-    void SetAllVars(Configuration* configurationObj, projectorNumber);
+    void SetAllVars(Configuration* configurationObj, int projectorNumber);
 
 	private:
 		int m_projectorCalibrationData[];

@@ -16,7 +16,19 @@ class Demo {
 		Demo(Renderer* renderer);
 		~Demo();
 		// each derived demo implements this according to objects being loaded
-		void RunDemo();
+		void RunDemo() {
+			m_renderer->Initialize();
+			//Load Cube
+			m_renderer->LoadObject();//path to obj file
+									 //Load Grid
+			m_renderer->LoadObject();//path to obj file
+									 // LoadAxis
+			m_renderer->LoadObject();//path to obj file
+									 // LoadCubeTexture
+			m_renderer->LoadTextures();//path to texture files
+
+			m_renderer->LoadScene();//path to files
+		}
 
 	private:
 		Renderer* m_renderer;

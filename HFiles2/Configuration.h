@@ -1,10 +1,11 @@
 /* Initialization Variables, set up in Main function. Determine constants used throughout the project*/
 
 #include "Tracker.h"
-#include "Demo.h"
-I
+#include "Demo2.h"
+#include "pugixml.hpp"
 
-	public class Configuration {
+
+class Configuration {
 
 	public:
 		Configuration();
@@ -14,13 +15,13 @@ I
 
 		Tracker* InitializeTracker(); // initialize Kinect or Fastrak
 		int GetNumberOfProjectors();
-		int InitializeInput(); // initialize Keyboard or Stylus
+		Input* InitializeInput(); // initialize Keyboard or Stylus
 		int GetWidthProjectors();
 		int GetHeightProjectors();
 		Renderer* InitializeRenderer(); // initialize a OpenGL, Unity or Unreal renderer depending on Configuration
 		void CreateCalibrationObjectsForProjectors();
 	// Change these to ints instead of booleans depending on how we manage trackers,inputs and demos.( Using IDs )
-		int m_numProjectors[];
+		int m_numProjectors;
 
 		bool m_inputFastrak;
 		bool m_inputKinect;

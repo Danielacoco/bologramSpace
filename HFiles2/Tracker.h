@@ -6,7 +6,7 @@ to track motion wrt sphere */
 #ifndef _TRACKER_H_
 #define _TRACKER_H_
 namespace Spheree {
-	class Tracker { //tracker have its own thread?
+class Tracker { //tracker have its own thread?
 	public:
 		Tracker();
 		Vector3d GetPosition();
