@@ -2,7 +2,7 @@
 
 #include "Tracker.h"
 #include "Demo2.h"
-#include "pugixml.hpp"
+#include "C:\Users\Daniela\Documents\Visual Studio 2015\Projects\ConsoleApplication1\pugixml-1.7\src\pugixml.hpp"
 
 
 class Configuration {

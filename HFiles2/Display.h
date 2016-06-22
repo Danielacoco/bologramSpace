@@ -1,7 +1,7 @@
 #ifndef _DISPLAY_H_
 #define _DISPLAY_H_
 
-#include "Projector.h"
+#include "Projector2.h"
 #include "Tracker.h"
 #include "Renderer.h"
 #include "Vector3.h"
