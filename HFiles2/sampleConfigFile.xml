@@ -1,16 +1,27 @@
-<?xml version = '1.0' encoding='us-ascii' ?>
+<?xml version = '1.0' encoding="UTF-8" ?>
 
-<demoElement
-	
-	></demoElement>
+<demoElement>
 
-<!-- Specify number of projectors-->
+	<!-- Specify number of projectors-->
+	<projectors>2</projectors>
 
-<!-- Specify Display-->
+	<!-- Specify Display: VirtualSphere, VirtualCube, Cube, Sphere, Flat-->
+	<display>VirtualSphere</display>
 
-<!-- Specify Tracker-->
+	<!-- Specify Tracker: Kinect, Fastrak-->
+	<tracker>Fastrak<tracker>
 
-<!-- Specify Demo-->
+	<!-- Specify Demo: file name -->
+	<demo>Cube</demo>
 
-<!-- Specify Renderer-->
+	<!-- Specify Renderer: OpenGL, Unreal, Unity-->
+	<renderer>Unreal</renderer>
+
+</demoElement>
+
+
+
+
+
+
 
