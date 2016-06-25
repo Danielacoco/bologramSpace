@@ -3,7 +3,7 @@
 
 #include "Projector.h"
 #include "Tracker.h"
-#include "Renderer.h"
+#include "Demo.h"
 #include "Vector3.h"
 #include "Input.h"
 //#include "Demo.h"

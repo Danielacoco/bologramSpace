@@ -3,17 +3,20 @@
 #define _CONFIGURATION_H_
 
 #include "Tracker.h"
-#include "Demo.h"
-#include "C:\Users\Daniela\Documents\Visual Studio 2015\Projects\System1\System1\pugixml-1.7\src\pugixml.hpp"
+#include "Renderer.h"
+#include "Input.h"
+#include <string.h>
 
+#include "C:\Users\Daniela\Documents\Visual Studio 2015\Projects\bologramSpace\System1\System1\pugixml-1.7\src\pugixml.hpp"
+using namespace std;
 
 class Configuration {
 
 public:
-	Configuration();
+	//Configuration();
 	~Configuration();
-	void SetConfigurationVariables(FILE *file);
-	void SetConfigurationVariables();
+	void SetConfigurationVariables(char* file);
+	//void SetConfigurationVariables();
 
 	Spheree::Tracker* InitializeTracker(); // initialize Kinect or Fastrak
 	int GetNumberOfProjectors();

@@ -66,10 +66,24 @@
     <ClInclude Include="Calibration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="pugixml.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Configuration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="sampleConfigFile.xml">
+      <Filter>Header Files</Filter>
+    </Xml>
   </ItemGroup>
 </Project>

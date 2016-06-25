@@ -123,6 +123,7 @@
     <ClInclude Include="KeyBoard.h" />
     <ClInclude Include="OpenGLRenderer.h" />
     <ClInclude Include="Projector.h" />
+    <ClInclude Include="pugixml.hpp" />
     <ClInclude Include="Renderer.h" />
     <ClInclude Include="serial.h" />
     <ClInclude Include="ThreeDPCDisplay.h" />
@@ -133,6 +134,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Configuration.cpp" />
+    <ClCompile Include="pugixml.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="sampleConfigFile.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

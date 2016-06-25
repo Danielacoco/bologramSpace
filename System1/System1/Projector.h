@@ -9,7 +9,7 @@
 
 class Projector {
 public:
-	//Projector(int projWidth, int projHeight, Calibration* calibrationobj, Vector3d Position);
+	Projector(int projWidth, int projHeight, Calibration* calibrationobj, vector3d Position);
 	~Projector();
 
 	void SetWidthHeight();

@@ -3,9 +3,6 @@
 #define _DEMO_H_
 
 #include "Renderer.h"
-#include "Display.h"
-#include "Configuration.h"
-#include "Vector3.h"
 
 /* Demo selects uses determined renderer to determined display*/
 /* Derived classes from this class will call renderer specific functions to load the content and implement particular demo
@@ -33,7 +30,6 @@ public:
 
 private:
 	Renderer* m_renderer;
-	Display* m_display;
 
 };
 #endif

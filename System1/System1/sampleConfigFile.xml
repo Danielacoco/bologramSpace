@@ -9,7 +9,7 @@
 	<display>VirtualSphere</display>
 
 	<!-- Specify Tracker: Kinect, Fastrak-->
-	<tracker>Fastrak<tracker>
+	<tracker>Fastrak</tracker>
 
 	<!-- Specify Demo: file name -->
 	<demo>Cube</demo>
