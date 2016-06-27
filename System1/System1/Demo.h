@@ -4,7 +4,7 @@
 
 #include "Renderer.h"
 
-/* Demo selects uses determined renderer to determined display*/
+/* Demo uses determined renderer to determined display*/
 /* Derived classes from this class will call renderer specific functions to load the content and implement particular demo
 methods (RunDemo) */
 

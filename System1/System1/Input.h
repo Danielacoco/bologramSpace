@@ -1,6 +1,6 @@
 #pragma once
 /*Abrstact class, describes the behaviour and capabilities that any input
-used with spheree needs without commiting to particular implementation */
+used with any display needs without commiting to particular implementation */
 #ifndef _INPUT_H_
 #define _INPUT_H_
 

@@ -7,7 +7,7 @@ void Configuration::SetConfigurationVariables(char* file) {
 
 	if (result) 
 	{
-		std::cout << "XML [" << file << "] parsed without errors, attr value : [" << doc.first_child().value() << "] \n";
+		std::cout << "XML [" << file << "] parsed without errors, attr value : [" << doc.child("projectors").value() << "] \n";
 	}
 	else
 	{

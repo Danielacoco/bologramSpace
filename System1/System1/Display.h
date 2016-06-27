@@ -6,6 +6,7 @@
 #include "Demo.h"
 #include "Vector3.h"
 #include "Input.h"
+#include "Renderer.h"
 //#include "Demo.h"
 
 /* Display surface class. All display classes will inherit from this class and will be in charge of displaying content
@@ -16,8 +17,8 @@ correctly onto the physical or virtual display surfaces (this is done in update)
 
 class Display {
 public:
-	Display(Projector* projectors, int numProjectors, Spheree::Tracker* tracker, Demo* demo);
-	Display(Projector* projectors, int numProjectors, Spheree::Tracker* tracker, Input* input, Demo* demo);
+	Display(Projector* projectors, int numProjectors, Spheree::Tracker* tracker, Demo* demo, Renderer* renderer);
+	Display(Projector* projectors, int numProjectors, Spheree::Tracker* tracker, Input* input, Demo* demo, Renderer* renderer);
 	~Display(); // clean up upon destruction
 	void InitializeDisplay();
 	void RunThread();
@@ -27,6 +28,7 @@ public:
 
 
 private:
+	int m_numberProjectors;
 	Projector* m_projectors;
 	Demo* m_demo;
 	Spheree::Tracker* m_tracker;

@@ -24,17 +24,19 @@ public:
 	int GetWidthProjectors();
 	int GetHeightProjectors();
 	Renderer* InitializeRenderer(); // initialize a OpenGL, Unity or Unreal renderer depending on Configuration
-	void CreateCalibrationObjectsForProjectors();
+	void CreateCalibrationObjectsForProjectors();//---> diff way to do this
 	// Change these to ints instead of booleans depending on how we manage trackers,inputs and demos.( Using IDs )
+	
+	
+	
 	int m_numProjectors;
-
-	bool m_inputFastrak;
-	bool m_inputKinect;
-	bool m_inputMouse;
-	bool m_inputKeyBoard;
-	bool m_useStylus;
-	bool m_useVirtualSphere;
-	bool m_calibrationDone;
+	const pugi::char_t* m_xml_tracker;
+	const pugi::char_t* m_xml_input;
+	const pugi::char_t* m_xml_renderer;
+	int m_projectorWidth;
+	int m_projectorHeight;
+	const pugi::char_t* m_xml_display;
+	const pugi::char_t* m_xml_demo;
 
 	//int m_widthProjectors[m_numProjectors];
 	//int m_heightProjectors[m_numProjectors];
