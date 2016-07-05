@@ -1,7 +1,6 @@
 ﻿  Configuration.cpp
-  Generating Code...
-  Compiling...
-  Source.cpp
-  Generating Code...
+c:\users\daniela\documents\visual studio 2015\projects\bologramspace\system1\system1\configuration.cpp(11): warning C4101: 'height': unreferenced local variable
+c:\users\daniela\documents\visual studio 2015\projects\bologramspace\system1\system1\configuration.cpp(10): warning C4101: 'width': unreferenced local variable
+c:\users\daniela\documents\visual studio 2015\projects\bologramspace\system1\system1\configuration.cpp(12): warning C4101: 'numProjectors': unreferenced local variable
   System1.vcxproj -> C:\Users\Daniela\Documents\Visual Studio 2015\Projects\bologramSpace\System1\Debug\System1.exe
   System1.vcxproj -> C:\Users\Daniela\Documents\Visual Studio 2015\Projects\bologramSpace\System1\Debug\System1.pdb (Partial PDB)
