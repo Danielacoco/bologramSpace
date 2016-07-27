@@ -66,13 +66,5 @@ int Configuration::GetHeightProjectors() {
 	return m_projectorHeight;
 }
 
-Spheree::Tracker* Configuration::InitializeTracker() {
-	if (strcmp(m_xml_tracker, "Fastrak")) {
-		Spheree::Tracker  *tracker = new Fastrak(char* device, int speed);
-	else {
-		Spheree::Tracker  *tracker = new 
-	}
 
-	return Spheree::Tracker();
-}
 
